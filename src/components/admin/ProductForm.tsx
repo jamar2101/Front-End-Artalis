@@ -27,7 +27,7 @@ const ProductForm: React.FC<ProductFormProps> = ({ product, onSubmit, isSubmitti
   const { auth } = useAuth();
 
   // Predefined fragrance categories
-  const fragranceCategories = ['men', 'women', 'unisex', 'limited', 'oriental', 'fresh', 'woody', 'floral', 'citrus'];
+  const fragranceCategories = ['Parfum Pria', 'Parfum Wanita'];
 
   const getCategoryDisplayName = (cat: string) => {
     const categoryNames: { [key: string]: string } = {
