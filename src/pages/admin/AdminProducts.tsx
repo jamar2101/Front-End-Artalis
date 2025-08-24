@@ -129,13 +129,7 @@ const AdminProducts: React.FC = () => {
     const categoryNames: { [key: string]: string } = {
       men: 'Pria',
       women: 'Wanita',
-      unisex: 'Unisex',
-      limited: 'Edisi Terbatas',
-      oriental: 'Oriental',
-      fresh: 'Fresh',
-      woody: 'Woody',
-      floral: 'Floral',
-      citrus: 'Citrus',
+     
     };
     return categoryNames[category] || category.charAt(0).toUpperCase() + category.slice(1);
   };
