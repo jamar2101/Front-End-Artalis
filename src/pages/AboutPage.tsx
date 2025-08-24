@@ -1,6 +1,12 @@
 import React from 'react';
 import { Sparkles, Award, Users, Heart, Star, Shield, Truck, Clock } from 'lucide-react';
 
+// Import semua gambar dari folder src/img
+import artalisImg from '../img/artalis.jpg';
+import dikaeImg from '../img/foto dikae.jpg';
+import dikaJangkungImg from '../img/foto dika jangkung.jpg';
+import rapaImg from '../img/foto rapa.jpg';
+
 const AboutPage: React.FC = () => {
   return (
     <div className="py-6 md:py-10 bg-gradient-to-br from-dark-950 via-dark-900 to-dark-800 min-h-screen">
@@ -24,12 +30,11 @@ const AboutPage: React.FC = () => {
               </h2>
               <div className="space-y-4 text-neutral-300 leading-relaxed">
                 <p>
-                 Artalis Parfume adalah sebuah brand lokal yang bergerak di bidang wewangian, didirikan pada tahun 2024 oleh sekelompok mahasiswa yang memiliki ketertarikan di dunia kreatif dan kewirausahaan. Brand ini hadir sebagai bentuk ekspresi anak muda yang ingin menghadirkan parfum dengan karakter, cerita, dan makna lebih dari sekadar wangi.
+                  Artalis Parfume adalah sebuah brand lokal yang bergerak di bidang wewangian, didirikan pada tahun 2024 oleh sekelompok mahasiswa yang memiliki ketertarikan di dunia kreatif dan kewirausahaan. Brand ini hadir sebagai bentuk ekspresi anak muda yang ingin menghadirkan parfum dengan karakter, cerita, dan makna lebih dari sekadar wangi.
                 </p>
                 <p>
-                 Artalis lahir dari keyakinan bahwa parfum bisa menjadi simbol dari perasaan, suasana, hingga versi terbaik diri seseorang. Maka dari itu, setiap varian yang dirilis dirancang dengan pendekatan storytelling yang kuat, agar setiap orang bisa merasa terhubung secara personal dengan aromanya.
-                 Dengan kemasan travel-size yang praktis dan harga yang terjangkau, Artalis menyasar generasi muda seperti pelajar, mahasiswa, hingga pekerja aktif yang mobile. Melalui dua varian awalnya, Evlyn dan Equinox, Artalis menampilkan spektrum aroma yang luas dari yang cerah, manis, dan menyenangkan, hingga yang tenang, hangat, dan dalam.
-
+                  Artalis lahir dari keyakinan bahwa parfum bisa menjadi simbol dari perasaan, suasana, hingga versi terbaik diri seseorang. Maka dari itu, setiap varian yang dirilis dirancang dengan pendekatan storytelling yang kuat, agar setiap orang bisa merasa terhubung secara personal dengan aromanya.
+                  Dengan kemasan travel-size yang praktis dan harga yang terjangkau, Artalis menyasar generasi muda seperti pelajar, mahasiswa, hingga pekerja aktif yang mobile. Melalui dua varian awalnya, Evlyn dan Equinox, Artalis menampilkan spektrum aroma yang luas dari yang cerah, manis, dan menyenangkan, hingga yang tenang, hangat, dan dalam.
                 </p>
                 <p>
                   Artalis memasarkan produknya secara online melalui media sosial dan marketplace, serta secara aktif membangun branding yang dekat dengan Gen Z dan milenial. Seluruh konten Artalis mengedepankan pendekatan visual dan narasi yang relatable, emosional, dan otentik.
@@ -40,7 +45,7 @@ const AboutPage: React.FC = () => {
               <div className="relative">
                 <div className="aspect-square bg-gradient-to-br from-dark-700 to-dark-800 rounded-2xl overflow-hidden border border-primary-900/30">
                   <img 
-                    src="src/img/artalis.jpg" 
+                    src={artalisImg}
                     alt="Koleksi parfum mewah" 
                     className="w-full h-full object-cover"
                   />
@@ -108,7 +113,7 @@ const AboutPage: React.FC = () => {
                 <h3 className="text-2xl font-heading font-bold text-white">Misi Kami</h3>
               </div>
               <p className="text-neutral-300 leading-relaxed">
-                Misi kami adalah menciptakan parfum yang terinspirasi dari kisah dan emosi nyata, menghadirkan aroma yang personal dan bermakna melalui pendekatan storytelling. Kami menghadirkan produk travel-friendly yang sesuai dengan gaya hidup dinamis anak muda, serta terus berinovasi berdasarkan aspirasi dan kebutuhan emosional audiens. Lebih dari sekadar wangi, kami membangun komunitas yang terhubung melalui rasa yang ditinggalkan setiap aroma.
+                Misi kami adalah menciptakan parfum yang terinspirasi dari kisah dan emosi nyata, menghadirkan aroma yang personal dan bermakna melalui pendekatan storytelling. Kami menghadirkan produk travel-friendly yang sesuai dengan gaya hidup dinamis anak muda, serta terus berinovasi berdasarkan aspirasi dan kebutuhan emosional audiens. Lebih dari sekadar wangi, kami membangun komunitas yang terhubung melalui rasa yang ditinggalkan setiap aroma.
               </p>
             </div>
 
@@ -121,7 +126,6 @@ const AboutPage: React.FC = () => {
               </div>
               <p className="text-neutral-300 leading-relaxed">
                 Menjadi game changer di industri parfum lokal maupun global, bukan dengan hanya menciptakan wangi terbaik, tapi membangun koneksi emosional lewat setiap aroma yang kami hadirkan.
-
               </p>
             </div>
           </div>
@@ -188,46 +192,37 @@ const AboutPage: React.FC = () => {
             <div className="bg-gradient-to-br from-dark-800 to-dark-900 p-6 rounded-2xl shadow-xl border border-primary-900/30 text-center group hover:border-primary-700/50 transition-all duration-300">
               <div className="w-24 h-24 bg-gradient-to-br from-primary-500 to-primary-600 rounded-full mx-auto mb-4 overflow-hidden">
                 <img 
-                  src="src/img/foto dikae.jpg" 
+                  src={dikaeImg} 
                   alt="Andika Arsy" 
                   className="w-full h-full object-cover"
                 />
               </div>
               <h4 className="font-heading font-semibold text-lg mb-2 text-white">Andika Arsy</h4>
               <p className="text-primary-400 text-sm mb-3">Owner</p>
-              <p className="text-neutral-300 text-sm leading-relaxed">
-                
-              </p>
             </div>
 
             <div className="bg-gradient-to-br from-dark-800 to-dark-900 p-6 rounded-2xl shadow-xl border border-primary-900/30 text-center group hover:border-primary-700/50 transition-all duration-300">
               <div className="w-24 h-24 bg-gradient-to-br from-primary-500 to-primary-600 rounded-full mx-auto mb-4 overflow-hidden">
                 <img 
-                  src="src/img/foto dika jangkung.jpg" 
+                  src={dikaJangkungImg} 
                   alt="Andika Rafi" 
                   className="w-full h-full object-cover"
                 />
               </div>
               <h4 className="font-heading font-semibold text-lg mb-2 text-white">Andika Rafi</h4>
               <p className="text-primary-400 text-sm mb-3">CEO</p>
-              <p className="text-neutral-300 text-sm leading-relaxed">
-                
-              </p>
             </div>
 
             <div className="bg-gradient-to-br from-dark-800 to-dark-900 p-6 rounded-2xl shadow-xl border border-primary-900/30 text-center group hover:border-primary-700/50 transition-all duration-300">
               <div className="w-24 h-24 bg-gradient-to-br from-primary-500 to-primary-600 rounded-full mx-auto mb-4 overflow-hidden">
                 <img 
-                  src="src/img/foto rapa.jpg" 
+                  src={rapaImg} 
                   alt="Rafael Faruqi" 
                   className="w-full h-full object-cover"
                 />
               </div>
               <h4 className="font-heading font-semibold text-lg mb-2 text-white">Rafael Faruqi</h4>
               <p className="text-primary-400 text-sm mb-3">CEO</p>
-              <p className="text-neutral-300 text-sm leading-relaxed">
-                
-              </p>
             </div>
           </div>
         </div>
