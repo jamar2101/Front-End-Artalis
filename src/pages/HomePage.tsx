@@ -73,9 +73,6 @@ const HomePage: React.FC = () => {
                 Jelajahi Koleksi
                 <ArrowRight className="h-5 w-5 ml-2" />
               </Link>
-              <Link to="/contact" className="btn border-2 border-white text-white hover:bg-white/10 backdrop-blur-md text-center py-3 lg:py-4 px-6 lg:px-8 text-base lg:text-lg font-semibold w-full sm:w-auto">
-                Pelajari Lebih Lanjut
-              </Link>
             </div>
           </div>
         </div>
