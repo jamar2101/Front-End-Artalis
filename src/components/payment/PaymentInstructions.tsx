@@ -114,6 +114,7 @@ const PaymentInstructions: React.FC<PaymentInstructionsProps> = ({
                 <li>Masukkan kode berita/referensi</li>
                 <li>Konfirmasi dan selesaikan transaksi</li>
                 <li>Simpan bukti transfer untuk konfirmasi</li>
+                <li>Lakukan konfirmasi di halaman kontak</li>
               </ol>
             </div>
           </div>
